@@ -143,7 +143,7 @@ function deleteSelected() {
 // Logout function
 function logout() {
   localStorage.removeItem("username");
-  window.location.href = "../LoginPage/index.html"; // Redirect to login page
+  window.location.href = "index.html"; // Redirect to login page
 }
 
 // Initial render of tickets
